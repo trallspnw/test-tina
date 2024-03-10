@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: 'https://trallspnw.github.io',
+    images: {
+      unoptimized: true,
+    },
 };
 
 export default nextConfig;
